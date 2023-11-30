@@ -19,7 +19,7 @@ abstract class House {
 
   constructor(private key: Key) {}
 
-  abstract openDoor(person: Person): void;
+  // abstract openDoor(person: Person): void;
 
   isDoorOpen(): boolean {
     return this.door;
